@@ -379,7 +379,7 @@ class PAGPVTUnet(nn.Module):
     
 #######################
 
-net = PAGTransYnet(input_channels=3, num_classes= 9)
+net = PAGPVTUnet(input_channels=3, num_classes= 9)
 
 inp = torch.rand(1,1,224,224)
 out = net(inp)
