@@ -2,8 +2,8 @@
 
 This is the official implementation of our proposed medical imaging segmentation architecture PAG-PVTUnet officiel pytorch implementation is available at PAGPVTUnet.py
 
+<img width="4816" height="3113" alt="fig7r drawio" src="https://github.com/user-attachments/assets/16688fab-3103-4356-aeba-64ce3fc871df" />
 
-[fig7r.pdf](https://github.com/user-attachments/files/23685227/fig7r.pdf)
 
 ## Citation: If you found this Repository useful, please cite:
 
