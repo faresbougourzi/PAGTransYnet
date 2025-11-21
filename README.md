@@ -7,6 +7,11 @@ This is the official implementation of our proposed medical imaging segmentation
   Figure 1: Our proposed PAG-PVTUnet architecture details.
 </p> 
 
+## Results in Synapse Dataset
+
+![Screenshot 2025-11-21 234949](https://github.com/user-attachments/assets/eb39c8e8-b92d-4a92-8019-a754635c5f24)
+
+
 ## Citation: If you found this Repository useful, please cite:
 
 ```bash
