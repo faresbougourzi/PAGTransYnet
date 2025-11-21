@@ -215,8 +215,8 @@ class Conv2dReLU(nn.Sequential):
         super(Conv2dReLU, self).__init__(conv, bn, relu) 
         
         
-#### PAG-PVTUnet #########################################################  
-class PAGPVTUnet(nn.Module):
+#### PAGTransYnet #########################################################  
+class PAGTransYnet(nn.Module):
     def __init__(self, input_channels=3, num_classes = 1, deep_supervision=False):
         super(PAGPVTUnet, self).__init__()
         
@@ -379,11 +379,12 @@ class PAGPVTUnet(nn.Module):
     
 #######################
 
-net = PAGPVTUnet(input_channels=3, num_classes= 9)
+net = PAGTransYnet(input_channels=3, num_classes= 9)
 
 inp = torch.rand(1,1,224,224)
 out = net(inp)
 
 print(out.shape)
+
 
 
