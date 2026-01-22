@@ -218,7 +218,7 @@ class Conv2dReLU(nn.Sequential):
 #### PAGTransYnet #########################################################  
 class PAGTransYnet(nn.Module):
     def __init__(self, input_channels=3, num_classes = 1, deep_supervision=False):
-        super(PAGPVTUnet, self).__init__()
+        super(PAGTransYnet, self).__init__()
         
         self.pool = nn.MaxPool2d(2, 2)
         self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
@@ -385,6 +385,7 @@ inp = torch.rand(1,1,224,224)
 out = net(inp)
 
 print(out.shape)
+
 
 
 
